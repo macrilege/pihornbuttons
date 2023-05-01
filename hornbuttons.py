@@ -10,7 +10,7 @@ relay_pim = 4
 relay = gpiozero.OutputDevice(relay_pin, active_high=True, initial_value=False)
 button_back = Button(20)
 button_forward = Button(21)
-button_play = Button(2)
+button_play = Button(16)
 sound_array = ['sound1', 'sound2', 'sound3', 'sound4', 'sound5', 'sound6', 'sound7', 'sound8', 'sound9']
 #TODO change to directory of mp3 sounds and build the array from there?
 array_length = len(sound_array)
